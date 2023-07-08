@@ -4,6 +4,10 @@ Created on Fri Jun 23 09:11:46 2023
 
 @author: Julio Mendoza
 """
+from pyvirtualdisplay import Display
+display = Display(visible=0, size=(1, 1))
+display.start()
+
 
 import cv2
 import matplotlib.pyplot as plt
